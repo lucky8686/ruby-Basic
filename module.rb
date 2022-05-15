@@ -13,7 +13,7 @@ class Shape
   
   attr_accessor :color, :width, :height
   
-  def initialize(width, height, color="Red")
+  def initialize(width, height, color="Black")
     super(color)
     @width = width
     @height = height
